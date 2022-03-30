@@ -1,0 +1,393 @@
+
+
+@media (max-width: 1366px) {
+
+  .left {
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   width: 98.5%;
+  }
+
+  .music_visual_1, .music_visual_2, .music_visual_3, .music_visual_4 {
+    border: 0.24vw solid #222222;
+  }
+
+  .col_1, .col_2, .col_3, .col_4{
+    margin: 10% 26%;
+    font-size: 1.3vw;
+  }
+
+  .move_1, .move_2, .move_3, .move_4{
+    margin: 10% 2%;
+    font-size: 1.3vw;
+  }
+
+  .stop_1, .stop_2, .stop_3, .stop_4{
+    margin: 10% 2%;
+    font-size: 1.3vw;
+  }
+
+  .button_11, .button_12, .button_13, .button_14, .button_21, .button_22, .button_23, .button_24, .button_31, .button_32, .button_33, .button_34, .button_41, .button_42, .button_43, .button_44 {
+    border: 0.24vw solid #222222;
+  }
+
+  .right_grid {
+    grid-template-rows: 67.2% 32.8%;
+  }
+
+  .graphic_column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .graphic_numbers {
+    top: 88%;
+  }
+
+  .graphic {
+    margin-top: 4%;
+  }
+
+  .graphic_1, .graphic_2 {
+    top: 30%;
+  }
+
+  .steps_column {
+    width: 150%;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100%;
+    margin-top: -112%;
+  }
+
+  .levels_and_chb {
+    width: 68%;
+    flex-direction: column;
+  }
+
+  .chb_block {
+    align-self: flex-end;
+    margin-right: 8%;
+    margin-top: 1%;
+  }
+
+  .chb_block_img {
+    width: 125%;
+  }
+
+  .black_white {
+    width: 64%;
+    margin-left: 86.5%;
+    position: relative;
+    margin-top: -18%;
+  }
+
+  .black_white_inner {
+    width: 100%;
+  }
+
+  .graphic_column {
+    width: 126%;
+    margin-top: -14%;
+  }
+
+  .levels_block, .make_min, .make_max, .make_ac, .make_bc {
+    border: 0.24vw solid #222222;
+  }
+
+  .levels_title {
+    font-size: 1.6vw;
+  }
+
+  .levels_first {
+    margin-top: 6%;
+  }
+
+  .levels_count {
+    margin-bottom: 3.5%;
+    margin-top: 1.1%;
+  }
+
+  .count {
+    font-size: 1.2vw;
+  }
+
+  .current_step_name, .blue_step_name {
+    font-size: 1.6vw;
+  }
+
+  .blue_step_name {
+    margin-top: 11%;
+    margin-bottom: 12%;
+  }
+
+  .number {
+    margin-top: 28%;
+    margin-bottom: 18%;
+    font-size: 4.6vw;
+  }
+
+  .upper_change, .lower_change {
+    border: 0.19vw solid #222222;
+  }
+
+  .make_acbc {
+    margin-top: 14%;
+  }
+
+  .min, .max, .ac, .bc {
+    font-size: 1.7vw;
+  }
+
+  .current_step {
+    width: 100%;
+    margin-top: 13%;
+  }
+
+  .blue_current_step {
+    margin-top: 3%;
+  }
+
+  .black_screen {
+    width: 26%;
+  }
+
+.upper_inner {
+  margin-bottom: 0.5%;
+}
+
+.synth {
+  margin-top: 7%;
+}
+
+.myname, .gruppa {
+  font-size: 1.4vw;
+  margin-top: 0.4%;
+}
+
+.synth_text {
+  font-size: 1.5vw;
+}
+/* .marquee-infinite {
+  width: 91.5%;
+  height: 91%;
+}
+
+.path_black_1{
+  display: flex;
+  width: 400%; */
+  /* animation: marquee-infinite 25s linear infinite; */
+  /* justify-content: space-around;
+}
+
+.marquee-infinite span{
+  width: 250%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.marquee-infinite img{
+  width: 100%;
+}
+
+.path_white_1 {
+  display: flex;
+  width: 400%; */
+  /* animation: marquee-infinite 25s linear infinite; */
+  /* justify-content: space-around;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+} */
+
+}
+
+/* @media (max-width: 414px) {
+
+  .left {
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   width: 80%;
+   grid-template-columns: 25% 25% 25% 25%;
+   margin-left: -26%;
+  }
+
+  .music_item {
+    transform: rotate(90deg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300%;
+    margin-bottom: 0.85%;
+  }
+
+  .holder {
+    margin-top: 40%
+  }
+
+  .graphic_column {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .steps_column {
+    width: 150%;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .textbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    width: 50%;
+  }
+
+} */
+
+@media (max-width: 414px) {
+
+  .left {
+    display: grid;
+    grid-template-columns: 17.1% 17.1% 17.1% 17.1% 17.1%;
+    width: 100%;
+    margin-top: 43%;
+    margin-left: -27.4%;
+  }
+
+  .music_buttons {
+    transform: rotate(-90deg);
+    width: 8.6%;
+  }
+
+  .button_11, .button_21, .button_31, .button_41 {
+    width: 125%;
+    border-radius: 4px;
+    border: 0.165vw solid #222222;
+    margin-bottom: 10%;
+    margin-left: -25%;
+  }
+
+  .button_12, .button_22, .button_32, .button_42 {
+    width: 125%;
+    border-radius: 4px;
+    border: 0.165vw solid #222222;
+    margin-bottom: 10%;
+    margin-left: -25%;
+  }
+
+  .button_13, .button_23, .button_33, .button_43 {
+    width: 125%;
+    border-radius: 4px;
+    border: 0.165vw solid #222222;
+    margin-bottom: 10%;
+    margin-left: -25%;
+  }
+
+  .col_1, .col_2, .col_3, .col_4 {
+    margin-top: 13%;
+    margin-bottom: 13%;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 2.7vw;
+  }
+
+  .move_1, .move_2, .move_3, .move_4 {
+    margin-top: 13%;
+    margin-bottom: 13%;
+    margin-left: 10%;
+    margin-right: 15%;
+    font-size: 2.5vw;
+  }
+
+  .stop_1, .stop_2, .stop_3, .stop_4 {
+    margin-top: 13%;
+    margin-bottom: 13%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 2.7vw;
+  }
+
+  .music_item {
+    transform: rotate(90deg);
+    margin-top: 20%;
+    width: 593%;
+    height: 52%;
+    margin-left: -90%;
+  }
+
+  .music_visual_1, .music_visual_2, .music_visual_3, .music_visual_4 {
+    margin-left: 9%;
+    border-radius: 3px;
+    border: 0.24vw solid #222222;
+  }
+
+  #dvoika {
+    margin-left: -115%;
+  }
+
+  #troika {
+    margin-left: -140%;
+  }
+
+  #chetverka {
+    margin-left: -164%;
+  }
+
+  .graphic_column {
+    display: grid;
+    /* grid-template-rows: 1fr 1fr; */
+  }
+
+  .drag {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 98.5%;
+  }
+
+  .steps_column {
+    width: 150%;
+    grid-template-rows: 1fr 1fr;
+    margin-left: -45%;
+    margin-top: 0;
+  }
+
+  .blue_current_step {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  .levels_block {
+    width: 110.3%;
+  }
+
+  .levels_item {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 60%;
+    margin-left: 40%;
+  }
+
+  .black_white {
+    margin-left: 0;
+  }
+
+  .footer {
+    width: 50%;
+  }
+
+  .textbox {
+    width: 53%;
+  }
+
+
+
+}
