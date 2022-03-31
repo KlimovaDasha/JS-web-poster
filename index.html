@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./stylesheet/style.css" rel="stylesheet" type="text/css"/>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
+      <script src="javascripts/java-script.js" charset="utf-8"></script>
+      <script type="text/javascript"></script>
+      <script src="javaskripts/java-script.js" charset="utf-8"></script>
+
+  <title>Animation</title>
+</head>
+<body>
+
+<div class="textbox">
+  <p class="title">лес</p>
+  <p class="title_means">музыка природы и её элементов</p>
+</div>
+
+<div class="holder">
+  <div class="left">
+      <div class="music_item">
+        <div class="music_buttons">
+          <div class="button_11">
+            <div class="col_1">col.</div>
+          </div>
+          <div class="button_12">
+            <div class="move_1">move</div>
+          </div>
+          <div class="button_13">
+            <div class="stop_1">stop</div>
+          </div>
+        </div>
+        <div class="music_visual_1">
+          <div class="path_1">
+            <img class="first_path_1" src="img/mymaskgroup1.svg" alt="">
+            <img class="first_path_white" src="img/mymaskgroup1_white.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div id="dvoika" class="music_item">
+        <div class="music_buttons">
+            <div class="button_21">
+              <div class="col_2">col.</div>
+            </div>
+            <div class="button_22">
+              <div class="move_2">move</div>
+            </div>
+            <div class="button_23">
+              <div class="stop_2">stop</div>
+            </div>
+        </div>
+        <div class="music_visual_2">
+          <div class="path_1">
+            <img class="second_path_1" src="img/mymaskgroup2.svg" alt="">
+            <img class="second_path_white" src="img/mymaskgroup2_white.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div id="troika" class="music_item">
+        <div class="music_buttons">
+          <div class="button_31">
+            <div class="col_3">col.</div>
+          </div>
+          <div class="button_32">
+            <div class="move_3">move</div>
+          </div>
+          <div class="button_33">
+            <div class="stop_3">stop</div>
+          </div>
+        </div>
+        <div class="music_visual_3">
+          <div class="path_1">
+            <img class="third_path_1" src="img/mymaskgroup3.svg" alt="">
+            <img class="third_path_white" src="img/mymaskgroup3_white.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div id="chetverka" class="music_item">
+        <div class="music_buttons">
+          <div class="button_41">
+            <div class="col_4">col.</div>
+          </div>
+          <div class="button_42">
+            <div class="move_4">move</div>
+          </div>
+          <div class="button_43">
+            <div class="stop_4">stop</div>
+          </div>
+        </div>
+        <div class="music_visual_4">
+          <div class="path_1">
+            <img class="fourth_path_1" src="img/mymaskgroup4.svg" alt="">
+            <img class="fourth_path_white" src="img/mymaskgroup4_white.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="levels_item">
+        <div class="levels_title">Уровни</div>
+        <div class="levels_and_chb">
+        <div class="levels_block">
+          <div class="levels_first">
+            <img class="blue" src="img/newblueblue1.svg" alt="">
+          </div>
+          <div class="levels_second">
+            <img class="blue_0" src="img/newblueblue2.svg" alt="">
+          </div>
+          <div class="levels_count">
+            <p class="count">dB</p>
+            <p class="count">-94</p>
+            <p class="count">-90</p>
+            <p class="count">-86</p>
+            <p class="count">-82</p>
+            <p class="count">-78</p>
+            <p class="count">-74</p>
+            <p class="count">-70</p>
+            <p class="count">-66</p>
+            <p class="count">-62</p>
+            <p class="count">-58</p>
+            <p class="count">-54</p>
+            <p class="count">-50</p>
+            <p class="count">-46</p>
+            <p class="count">-42</p>
+            <p class="count">-38</p>
+            <p class="count">-34</p>
+            <p class="count">-30</p>
+          </div>
+        </div><!--levels_block-->
+        <div class="chb_block">
+          <img class="chb_block_img" src="img/chb_block.svg" alt="">
+          <!-- <div class="chb_gradient">
+            <div class="chb_upper"></div>
+            <div class="chb_lower"></div>
+          </div> -->
+        </div>
+        </div><!--levels_and_chb-->
+      </div>
+    <!-- </div> --><!--music_rows-->
+  </div><!--left-->
+
+  <div class="right">
+    <div class="right_grid">
+      <div class="graphic_column">
+        <div class="graphic">
+          <img class="graphic_2" src="img/graphic_2.svg" alt="">
+          <img class="graphic_1" src="img/graphic_1.svg" alt="">
+          <div class="graphic_numbers">
+            <p class="graphic_count">60</p>
+            <p class="graphic_count">170</p>
+            <p class="graphic_count">310</p>
+            <p class="graphic_count">600</p>
+            <p class="graphic_count">800</p>
+            <p class="graphic_count">1K</p>
+          </div>
+          <img class="grafic_base" src="img/grafic_base.svg" alt="">
+        </div>
+        <div class="drag">
+          <div class="draggable">
+            <div class="line">
+              <img class="linee" src="img/linee.svg" alt="">
+              <img class="circle1" src="img/krug.svg" alt="">
+            </div>
+            <div class="line">
+              <img class="linee" src="img/linee.svg" alt="">
+              <img class="circle2" src="img/krug.svg" alt="">
+            </div>
+            <div class="line">
+              <img class="linee3" src="img/linee.svg" alt="">
+              <img class="circle3" src="img/krug.svg" alt="">
+            </div>
+            <div class="line">
+              <img class="linee" src="img/linee.svg" alt="">
+              <img class="circle4" src="img/krug.svg" alt="">
+            </div>
+            <div class="line">
+              <img class="linee" src="img/linee.svg" alt="">
+              <img class="circle5" src="img/krug.svg" alt="">
+            </div>
+            <div class="line">
+              <img class="linee" src="img/linee.svg" alt="">
+              <img class="circle6" src="img/krug.svg" alt="">
+            </div>
+          </div>
+          <div class="synth">
+            <div class="synth_text">Синхронизация</div>
+          </div>
+        </div>
+      </div>
+      <div class="steps_column">
+        <div class="current_step">
+          <div class="current_step_name">Current step</div>
+          <div class="add_number">
+              <div class="display">
+                <div id="num" class="number">1</div>
+              </div>
+              <div class="change_number">
+                <div id="upperchange" class="upper_change">
+                  <img id="pic" class="upper_arrow" src="img/upper_arrow.svg" alt="">
+                </div>
+                <div id="lowerchange" class="lower_change">
+                  <img class="lower_arrow" src="img/lower_arrow.svg" alt="">
+                </div>
+            </div>
+          </div><!--add_number-->
+          <div class="make_number">
+            <div id="make_min" class="make_min">
+              <div class="min">min</div>
+            </div>
+            <div id="make_max" class="make_max">
+              <div class="max">max</div>
+            </div>
+          </div>
+        </div><!-- current_step -->
+        <div class="blue_current_step">
+          <div class="blue_step_name">Current step</div>
+          <div class="blue_visual">
+        		<div class="path_b">
+        			<div class="newton_cradle"></div>
+        		</div>
+          </div><!-- blue_visual -->
+
+          <div class="make_acbc">
+            <div class="make_ac">
+              <div class="ac">AC</div>
+            </div>
+            <div class="make_bc">
+              <div class="bc">BC</div>
+            </div>
+          </div>
+        </div><!--blue_current_step -->
+      </div>
+    </div> <!--right_grid-->
+    <div class="black_white">
+      <div class="black_white_inner">
+        <div class="upper_inner">
+          <div class="without_gradient">
+            <div class="pitch">
+              <img class="pitch_img" src="img/pitch_img.svg" alt="">
+              <div class="pitch_name">PITCH</div>
+            </div>
+            <div class="tones">
+              <img class="tones_img" src="img/tones_img.svg" alt="">
+              <div class="tones_name">TONES</div>
+            </div>
+          </div>
+          <div class="with_gradient">
+            <div class="tempo">
+              <img class="tempo_img" src="img/tempo_img.svg" alt="">
+              <div class="tempo_name">TEMPO</div>
+            </div>
+            <div class="tones_gr">
+              <img class="tones_gr_img" src="img/tones_gr_img.svg" alt="">
+              <div class="tones_name_gradient">TONES</div>
+            </div>
+          </div>
+          <div class="black_screen">
+            <img class="black_screen_img" src="img/black_screen.svg" alt="">
+          </div>
+        </div><!-- upper_inner -->
+        <div class="border_top">
+        <div class="lower_inner">
+          <div class="setup">
+            <div class="setup_text">Setup</div>
+            <img class="setup_dot_img" src="img/setup_dot_img.svg" alt="">
+            <img class="setup_long_img" src="img/setup_long_img.svg" alt="">
+          </div>
+          <div class="reset">
+            <div class="reset_text">Reset</div>
+            <img class="reset_dot_img" src="img/reset_dot_img.svg" alt="">
+          </div>
+        </div>
+        </div>
+      </div><!-- black_white_inner -->
+    </div><!-- black_white -->
+ </div><!--right-->
+</div><!--holder-->
+
+<div class="footer">
+  <div class="myname">Климова Дарья</div>
+  <div class="gruppa">БД21ДЗ08</div>
+</div>
+
+
+</body>
+</html>
